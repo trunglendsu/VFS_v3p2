@@ -1,0 +1,11 @@
+ 
+ "sediment_transport.c"
+    - varialbles input via "control.dat";
+    - outlet fluxes are off: this might cause some problems for bed-forms exiting domain; if so, the outflux modules should be activated again;
+    - fixation/freezing the bed near the inlet is applied to th NewCode; should see if it causes any problem?
+    
+
+
+ "convection_diffusion.c" 
+    - it is succesfully compiled but might be of problem during running;
+    
